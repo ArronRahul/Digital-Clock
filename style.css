@@ -16,7 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Roboto Mono', monospace;
-    
+    overflow-y: hidden;
 }
 
 .digital-clock {
