@@ -53,3 +53,23 @@ body{
 .invsible {
     visibility: hidden;
 }
+
+@media screen and (max-width: 867px) {
+    .dot{
+        display: none;
+    }
+    .time{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    
+}
