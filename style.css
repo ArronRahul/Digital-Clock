@@ -17,6 +17,7 @@ body{
     align-items: center;
     font-family: 'Roboto Mono', monospace;
     overflow-y: hidden;
+
 }
 
 .digital-clock {
@@ -61,6 +62,10 @@ body{
 }
 
 @media screen and (max-width: 867px) {
+
+    .digital-clock{
+        gap: 1.5em;
+    }
     .dot{
         display: none;
     }
@@ -70,6 +75,9 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .week{
+        gap: 1.5em;
     }
 
 }
